@@ -1,0 +1,4 @@
+﻿<root>
+<dbtype sqlserver="MsSqlDB" mysql="MySqlDB" orac="oracDB">MySqlDB</dbtype>
+<ctrl redis="loginCheck.redis.php" mysql="loginCheck.mysql.php" >loginCheck.mysql.php</ctrl>
+</root>

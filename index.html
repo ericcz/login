@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>LOGIN</title>
+<link href="include/css/bootstrap.css" rel="stylesheet">
+<link href="include/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="include/css/bootstrap-theme.css" rel="stylesheet">
+<style type="text/css">
+.dvb {width:340px;height:400px;background-color:#ddd;bordercolordark:#fff;filter:progid:DXImageTransform.Microsoft.Shadow(Color=#333333,Direction=120,strength=4);}
+.mbg {margin-top:0px}
+</style>
+<script src="include/js/jquery-2.1.1.js"></script>
+<script src="include/js/bootstrap.js"></script>
+<script src="include/js/login.js"></script>
+<script type="text/javascript">
+
+</script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body><center>
+<noscript>
+	<div>
+        <p>Unfortunately your browser does not hava JavaScript capabilities which are required to exploit full functionality of our site. This could be the result of two possible scenarios:</p>
+        <ol><li>You are using an old web browser, in which case you should upgrade it to a newer version. We recommend the latest version of <a href="http://www.getfirefox.com">Firefox</a>.</li>
+        <li>You have disabled JavaScript in you browser, in which case you will have to enable it to properly use our site. <a href="http://www.google.com/support/bin/answer.py?answer=23852">Learn how to enable JavaScript</a>.</li>
+        </ol>
+    </div>
+</noscript>
+<div style='margin-top:50px;' class=dvb>
+<img src='img/survB.png' class=mbg>
+<div class="container" style="width:300px;margin-top:-80px;">
+	<form class="form-signin" role="form">
+    <h2 class="form-signin-heading">Please Sign in</h2>
+	<div class="input-group">
+	<span class="input-group-addon">I D</span>
+	<input id='inp-usr' type="text" class="form-control inp-usr" placeholder="Username" required autofocus>
+	</div><br>
+	<div class="input-group">
+	<span class="input-group-addon">P &nbsp;</span>
+	<input id='inp-pwd' type="password" class="form-control inp-pwd" placeholder="Password" required>
+	</div><br><br><br><br>
+    <a href="javascript:void(0)" class="btn btn-primary btn-block" >Sign in</a>
+    </form>
+</div></div>
+<div id="filelist" class='alert alert-info' style='margin-top:20px;width:30%;display:none'></div>
+</center>
+</body></html>
